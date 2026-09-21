@@ -1,0 +1,31 @@
+\begin{table}[htbp]
+\centering
+\caption{Resultados experimentales de multiplicación matriz-vector}
+\label{tab:matvec}
+\begin{tabular}{ccccc}
+\toprule
+N / p & 1 & 2 & 4 & 6 \\
+\midrule
+\multicolumn{5}{c}{Tiempo (s)} \\
+\midrule
+1000 & 1.506819e-03 & 8.222786e-04 & 4.753741e-04 & 3.671907e-04 \\
+2000 & 6.024350e-03 & 3.266326e-03 & 1.942626e-03 & 1.502397e-03 \\
+4000 & 2.432295e-02 & 1.355624e-02 & 7.755215e-03 & 5.819416e-03 \\
+8000 & 9.558623e-02 & 5.264713e-02 & 3.112544e-02 & 2.381759e-02 \\
+\midrule
+\multicolumn{5}{c}{Speedup} \\
+\midrule
+1000 & 0.977 & 1.790 & 3.096 & 4.009 \\
+2000 & 0.991 & 1.828 & 3.074 & 3.974 \\
+4000 & 1.006 & 1.804 & 3.154 & 4.203 \\
+8000 & 0.975 & 1.769 & 2.993 & 3.911 \\
+\midrule
+\multicolumn{5}{c}{Eficiencia} \\
+\midrule
+1000 & 0.977 & 0.895 & 0.774 & 0.668 \\
+2000 & 0.991 & 0.914 & 0.768 & 0.662 \\
+4000 & 1.006 & 0.902 & 0.788 & 0.700 \\
+8000 & 0.975 & 0.885 & 0.748 & 0.652 \\
+\bottomrule
+\end{tabular}
+\end{table}
